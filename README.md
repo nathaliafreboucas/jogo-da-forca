@@ -3,7 +3,7 @@ Segundo Alura Challenge do bootcamp ONE (Oracle Next Education). O objetivo era 
 
 ## Clique <a href="https://nathaliafreboucas.github.io/jogo-da-forca/"> aqui </a> para jogar.
 
-<img src=" images/jogo-da-forca.gif">
+<img src="images/jogo-da-forca.gif">
 
 Requisitos:
 - Deve funcionar só com letras maiúsculas;
