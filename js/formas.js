@@ -1,5 +1,5 @@
-var tela = document.querySelector('canvas');
-var caneta = tela.getContext('2d');
+let tela = document.querySelector('canvas');
+let caneta = tela.getContext('2d');
 
 function desenhaForca(){
     caneta.lineWidth = 6;
@@ -21,8 +21,6 @@ function desenhaForca(){
     caneta.moveTo(150,300);
     caneta.lineTo(350,300);  
     caneta.stroke();
-
-
 }
 
 function desenhaCabeca(){
@@ -33,6 +31,7 @@ function desenhaCabeca(){
     caneta.stroke();
 
 }
+
 function desenhaCorpo(){
     caneta.lineWidth = 15;
     caneta.strokeStyle = "#6627a0";
@@ -42,6 +41,7 @@ function desenhaCorpo(){
     caneta.lineTo(350,235);
     caneta.stroke();
 }
+
 function desenhaBracoEsquerdo(){
     caneta.lineWidth = 15;
     caneta.strokeStyle = "#6627a0";
@@ -51,6 +51,7 @@ function desenhaBracoEsquerdo(){
     caneta.lineTo(310,180);
     caneta.stroke();
 }
+
 function desenhaBracoDireito(){
     caneta.lineWidth = 15;
     caneta.strokeStyle = "#6627a0";
@@ -59,8 +60,8 @@ function desenhaBracoDireito(){
     caneta.moveTo(350,170);
     caneta.lineTo(390,180);
     caneta.stroke();
-
 }
+
 function desenhaPernaEsquerda(){
     caneta.lineWidth = 15;
     caneta.strokeStyle = "#6627a0";
@@ -69,8 +70,8 @@ function desenhaPernaEsquerda(){
     caneta.moveTo(350,235);
     caneta.lineTo(317,248);
     caneta.stroke();
-
 }
+
 function desenhaPernaDireita(){
     caneta.lineWidth = 15;
     caneta.strokeStyle = "#6627a0";
@@ -79,15 +80,13 @@ function desenhaPernaDireita(){
     caneta.moveTo(350,235);
     caneta.lineTo(383,248);
     caneta.stroke();
-
 }
 
 function desenhaTraco(posicao){
-    
     caneta.strokeStyle = 'blue';
+
     caneta.beginPath();
     caneta.moveTo(posicao,200);
     caneta.lineTo(posicao+30,200);
     caneta.stroke();
-
 }

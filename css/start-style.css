@@ -1,0 +1,24 @@
+.main-start{
+    background: url("../images/logo-forca.png") no-repeat;
+    background-color: var(--gradiente-violeta);
+    background-position: center right;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.tabuleiro{
+    background:var(--cinza);
+    border: 3px solid var(--violeta);
+    margin: 10px auto 10px;
+}
+
+.buttons-area-start{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto ;    
+    width: 55%;
+}
+
+
