@@ -1,11 +1,10 @@
 .main-newword{
+    align-items: center;
     background: url("../images/background-forca2.png") no-repeat;
     background-size: cover;
     background-position: center left;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    padding-top: 1.5rem;
 }
 .button-area-newword{    
     display: flex;
